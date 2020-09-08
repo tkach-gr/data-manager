@@ -439,4 +439,15 @@ footer > nav {
         margin-top: 0;
     }
 }
+
+@media (max-width: 500px) {
+    .tasks_categories {
+        flex-direction: column;
+    }
+
+    .tasks_categories > ul > li {
+        margin: 0;
+        padding: 25px 5px 15px 5px;
+    }
+}
 /* End Media*/
